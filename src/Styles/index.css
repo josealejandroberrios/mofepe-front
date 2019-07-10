@@ -1,0 +1,57 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+.input-group .invalid-feedback {
+  flex-basis: 100%!important;
+}
+
+.border-grid-col-1 {
+  border: 2px solid !important;
+}
+
+.border-grid-col-2 {
+  border-bottom: 2px solid !important;
+  border-top: 2px solid !important;
+  border-right: 2px solid !important;
+}
+
+.border-grid-col-3 {
+  border-left: 2px solid !important;
+  border-bottom: 2px solid !important;
+  border-right: 2px solid !important;
+}
+
+.border-grid-col-4 {
+  border-bottom: 2px solid !important;
+  border-right: 2px solid !important;
+}
+
+.border-grid-col-5 {
+  border-left: 2px solid !important;
+  border-top: 2px solid !important;
+  border-right: 2px solid !important;
+}
+
+.border-grid-col-6 {
+  border-top: 2px solid !important;
+  border-right: 2px solid !important;
+}
